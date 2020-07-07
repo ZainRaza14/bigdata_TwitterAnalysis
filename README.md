@@ -180,6 +180,6 @@ instance) using Python only and EMR(Elastic Map Reduce) 3 instances using PySpar
 #### 3. https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html 
 #### 4. https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.TruncatedSVD.html#sklearn.decomposition.TruncatedSVD 
 #### 5. https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html 
-#### 6. https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVect orizer.htm​l 
+#### 6. https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html 
 #### 7. http://comp.social.gatech.edu/papers/icwsm14.vader.hutto.pdf 
 #### 8. https://medium.com/analytics-vidhya/simplifying-social-media-sentiment-analysis-usingvader-in-python-f9e6ec6fc52f 

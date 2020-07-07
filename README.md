@@ -49,7 +49,7 @@ number of tweets used. While the performance was comparable for small number of 
 EMR it gave the results after almost 600s.  
 
 
-<img src="https://github.com/ZainRaza14/bigdata_TwitterAnalysis/blob/master/images/img2.PNG" width="400">
+<img src="https://github.com/ZainRaza14/bigdata_TwitterAnalysis/blob/master/images/img2.PNG" width="500">
 
 ## K-Means Clustering
 
@@ -105,7 +105,7 @@ more on the performance. The first image below represents running K-Means on 100
 points/tweets with a K value of 10, while the second image below represents running K-Means               
 on 10000 data points/tweets with a K value of 10. 
 
-<img src="https://github.com/ZainRaza14/bigdata_TwitterAnalysis/blob/master/images/img3.PNG" width="500">
+<img src="https://github.com/ZainRaza14/bigdata_TwitterAnalysis/blob/master/images/img3.PNG" width="600">
 
 The graph below shows the difference between running K-Means clustering on the Twitterdata              
 of increasing sizes on a local machine versus an AWS EMR cluster with 3instances(thex-axis                 
@@ -167,7 +167,7 @@ instance) using Python only and EMR(Elastic Map Reduce) 3 instances using PySpar
 
 #### Logistic Regression
 
-<img src="https://github.com/ZainRaza14/bigdata_TwitterAnalysis/blob/master/images/img6.PNG" width="600">
+<img src="https://github.com/ZainRaza14/bigdata_TwitterAnalysis/blob/master/images/img6.PNG" width="500">
 
 #### SVM
 

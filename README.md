@@ -41,12 +41,15 @@ and reducer were used to generate word frequency pairs and the top N pairs were
 selected to visualize the word cloud. The figure below shows the top N = 5000 
 words. 
 
-<img src="" width="600">
+<img src="https://github.com/ZainRaza14/bigdata_TwitterAnalysis/blob/master/images/img1.PNG" width="400">
 
 The graph below shows timing for the word count job on EMR with 3 clusters 
 versus the same job on local machine. The x-axis shows log(n) where n is the 
 number of tweets used. While the performance was comparable for small number of tweets, for more than 8M tweets, the code on the local machine crashed but on 
 EMR it gave the results after almost 600s.  
+
+
+<img src="https://github.com/ZainRaza14/bigdata_TwitterAnalysis/blob/master/images/img2.PNG" width="400">
 
 ## K-Means Clustering
 
@@ -102,7 +105,7 @@ more on the performance. The first image below represents running K-Means on 100
 points/tweets with a K value of 10, while the second image below represents running K-Means               
 on 10000 data points/tweets with a K value of 10. 
 
-
+<img src="https://github.com/ZainRaza14/bigdata_TwitterAnalysis/blob/master/images/img3.PNG" width="500">
 
 The graph below shows the difference between running K-Means clustering on the Twitterdata              
 of increasing sizes on a local machine versus an AWS EMR cluster with 3instances(thex-axis                 
@@ -114,6 +117,9 @@ a bit faster than the EMR cluster by a few seconds. This could be expected as, w
 data, directly running the code on the local machine would probablybefasterthanrunningiton                 
 the EMR clusters, where there may be some overhead involved in distributing the workload              
 across multiple instances. 
+
+
+<img src="https://github.com/ZainRaza14/bigdata_TwitterAnalysis/blob/master/images/img4.PNG" width="500">
  
 ## Sentimental Analysis
 
@@ -157,10 +163,15 @@ instance) using Python only and EMR(Elastic Map Reduce) 3 instances using PySpar
 
 #### Naive Bayes:
 
+<img src="https://github.com/ZainRaza14/bigdata_TwitterAnalysis/blob/master/images/img5.PNG" width="500">
 
 #### Logistic Regression
 
+<img src="https://github.com/ZainRaza14/bigdata_TwitterAnalysis/blob/master/images/img6.PNG" width="600">
+
 #### SVM
+
+<img src="https://github.com/ZainRaza14/bigdata_TwitterAnalysis/blob/master/images/img7.PNG" width="500">
 
 ### References:
 
